@@ -2,6 +2,6 @@ package mylogger
 
 import "fmt"
 
-func logprint() {
+func Logprint() {
 	fmt.Println("log print from external package")
 }
