@@ -1,6 +1,7 @@
 package mylogger
 
-func mylogger() int {
-	c := 1 + 2
-	return c
+import "fmt"
+
+func logprint() {
+	fmt.Println("log print from external package")
 }
